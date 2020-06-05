@@ -1,0 +1,21 @@
+@import '../styles/global';
+
+$footer-height: 100px;
+
+.container {
+  background-color: $orthopedic-pallete-1-hex;
+  width: $container-width;
+  height: $footer-height;
+  position: absolute;
+  bottom: 0;
+  width: $container-width;
+  .footer {
+    margin: 0 auto;
+    max-width: $site-width;
+    height: $footer-height;
+    line-height: $footer-height;
+    color: $orthopedic-pallete-2-hex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 20px 0 20px;
+  }
+}

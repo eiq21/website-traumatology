@@ -1,0 +1,33 @@
+
+// BULMA VARIABLE OVER-RIDES
+$primary: #07668C;
+$blue: #0A9EBF;
+$input-shadow: none;
+$info: $blue;
+$background: #fafafa;
+@import '../../../node_modules/bulma/bulma.sass';
+// ...All the Gatsby default stuff.
+
+$container-width: 100%;
+$site-width: 960px;
+
+/* Color Theme Swatches in Hex */
+$orthopedic-pallete-1-hex: #07668C;
+$orthopedic-pallete-2-hex: #0A9EBF;
+$orthopedic-pallete-3-hex: #A66946;
+$orthopedic-pallete-4-hex: #F2622E;
+$orthopedic-pallete-5-hex: #F2C6B6;
+
+/* Color Theme Swatches in RGBA */
+$orthopedic-pallete-1-rgba: rgba(7,102,140, 1);
+$orthopedic-pallete-2-rgba: rgba(9,157,191, 1);
+$orthopedic-pallete-3-rgba: rgba(165,104,69, 1);
+$orthopedic-pallete-4-rgba: rgba(242,98,46, 1);
+$orthopedic-pallete-5-rgba: rgba(242,197,181, 1);
+
+/* Color Theme Swatches in HSLA */
+$orthopedic-pallete-1-hsla: hsla(196, 90, 28, 1);
+$orthopedic-pallete-2-hsla: hsla(191, 90, 39, 1);
+$orthopedic-pallete-3-hsla: hsla(22, 40, 46, 1);
+$orthopedic-pallete-4-hsla: hsla(16, 88, 56, 1);
+$orthopedic-pallete-5-hsla: hsla(16, 70, 83, 1);
